@@ -155,6 +155,7 @@ span {
     grid-template-columns: 1fr 1fr;
     grid-gap: 15px;
     margin: 20px;
+    font-size: 1rem;
 }
 
 .grid-container-left {
@@ -362,5 +363,8 @@ footer {
       .projects-imgs {
         width: 70%;
         height: 70%;
+    }
+    .grid-container-half {
+        grid-template-columns: 1fr;
     }
 }
