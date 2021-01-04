@@ -22,12 +22,6 @@ nav {
     font-weight: bold;
     text-shadow: 2px 2px #728BA6;
 }
-@media only screen and (max-width: 600px) {
-    .main-nav {
-        font-size: 1em;
-        padding: 0;
-    }
-}
 
 li {
     padding: 20px;
@@ -328,6 +322,7 @@ hr {
     height: 200px;
     margin: 10px;
     transition: all 0.5s;
+    align-items: center;
 }
 
 .projects-imgs:hover {
@@ -345,4 +340,27 @@ footer {
     color: rgb(68, 68, 68);
     text-align: center;
     padding: 0px 0px 20px 0px;
+}
+
+@media only screen and (max-width: 900px) {
+    .main-nav {
+        font-size: 1em;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+    .sectionHeaders {
+        font-size: 2rem;   
+    }
+    .grid-chart-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        margin: auto;
+        text-align: left;
+        width: 90%;
+      }
+      .projects-imgs {
+        width: 70%;
+        height: 70%;
+    }
 }
