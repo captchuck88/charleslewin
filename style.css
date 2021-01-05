@@ -63,7 +63,7 @@ h1, h2 {
     background-color: #f5f5f5;
     text-align: left;
     color:#000;
-    font-size: 1.5rem;
+    font-size: 1rem;
     border-radius: 5px;
     padding: 1% 1% 1% 1%;
     margin: 30px;
@@ -343,6 +343,7 @@ footer {
     padding: 0px 0px 20px 0px;
 }
 
+/* Smaller Devices */
 @media only screen and (max-width: 900px) {
     .main-nav {
         font-size: 1em;
@@ -353,18 +354,32 @@ footer {
         font-size: 2rem;   
     }
     .grid-chart-container {
-        display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 10px;
-        margin: auto;
-        text-align: left;
-        width: 90%;
-      }
-      .projects-imgs {
+    }
+    .chart-header {
+        font-size: .95rem;
+        text-align: center;
+    }
+    .skills {
+        font-size: .87rem;
+    }
+    .projects-imgs {
         width: 70%;
         height: 70%;
     }
     .grid-container-half {
         grid-template-columns: 1fr;
+    }
+    header {
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 1.2rem;
+        text-align: center;
+    }
+    .clewinPix {
+        border-radius: 50%;
+        float: center;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
