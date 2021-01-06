@@ -98,7 +98,7 @@ span {
 
 .skillsimage {
     padding: 60px;
-    background: #000 url(images/collectible-room.jpg) no-repeat center;
+    background: #000 url(images/bkg-skills.jpg) no-repeat bottom;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
