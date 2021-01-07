@@ -382,6 +382,9 @@ footer {
     .grid-container-half {
         grid-template-columns: 1fr;
     }
+    .grid-container-left {
+        grid-template-columns: 1fr;
+    }
     header {
         display: grid;
         grid-template-columns: 1fr;
@@ -394,4 +397,5 @@ footer {
         margin-left: auto;
         margin-right: auto;
     }
+    
 }
