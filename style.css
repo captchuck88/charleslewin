@@ -47,6 +47,19 @@ h1, h2 {
     margin: 0;
 }
 
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+}
+
 .clewinPix {
     border-radius: 50%;
     border: 8px double #728CA5;
@@ -301,19 +314,6 @@ p {
     margin: 0;
     padding: 1px;
     text-decoration: none;
-}
-
-h3 {
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin: 0;
-    text-align: center;
-}
-
-h4 {
-    font-size: 1.2rem;
-    font-weight: bold;
-    margin: 0;
 }
 
 hr {
