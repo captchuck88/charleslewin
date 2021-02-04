@@ -39,7 +39,7 @@ li {
 header {
     color: #fff;
     padding: 20px 0px 90px 20px;
-    background: #000 url(images/background.jpg) no-repeat center;
+    background: #000 url(images/background.png) no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -73,7 +73,9 @@ h4 {
 
 .container {
     margin: auto;
-    padding: 2%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .sections {
@@ -211,6 +213,7 @@ p {
     margin: 0;
 }
 
+/* Scroll Top Button */
 #topbtn {
     display: none;
     position: fixed;
@@ -364,7 +367,27 @@ footer {
     padding: 0px 0px 20px 0px;
 }
 
-/* Smaller Devices */
+/* Smaller Screens - MAX 2600 */
+@media only screen and (max-width: 2600px) {
+    .container {
+        margin: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Smaller Screens - MAX 1800 */
+@media only screen and (max-width: 1800px) {
+    .container {
+        margin: auto;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Smaller Screens - MAX 900 */
 @media only screen and (max-width: 900px) {
     .main-nav {
         font-size: 1em;
